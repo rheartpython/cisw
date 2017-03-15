@@ -6,9 +6,7 @@ label: Course
 ---
 
 
-
-
-**_Here are the resources for each of the modules_**
+**_Here are the resources for each of the modules for the Foundations course_**
 
 Introduction to the Cortana Intelligence Platform and the Team Data Science Process
 
@@ -26,4 +24,9 @@ Ingesting, processing, and consuming data using Azure Data Factory for Orchestra
 Recap and Final Project for the class
 
 * [7 - Workshop recap and additional scenarios]({{site.baseurl}}/resources/CISW-FoundationsSection7.pdf)
+
+
+Lab Link
+
+* [All labs for Foundations found here]({{site.baseurl}}/labsfoundations/)
 
