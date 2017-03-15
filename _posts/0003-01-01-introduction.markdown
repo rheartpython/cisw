@@ -3,6 +3,7 @@ layout: post
 title:  Cortana Intelligence Suite Education - Foundations
 img: hikeclouds.jpg
 label: Course
+resource: Resources.zip
 ---
 
 

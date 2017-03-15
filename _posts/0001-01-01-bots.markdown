@@ -4,6 +4,7 @@ title:  Building Intelligent Chatbots with the Bot Framework
 categories: bots
 img: chatbot_w_mountain.jpg
 label: Material
+resource:
 ---
 
 Intelligent chatbots with the Bot Framework class material on GitHub:

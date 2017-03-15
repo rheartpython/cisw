@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/cisw/</link>
     <atom:link href="http://localhost:4000/cisw/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Mar 2017 10:40:57 -0700</pubDate>
-    <lastBuildDate>Wed, 15 Mar 2017 10:40:57 -0700</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 11:43:46 -0700</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 11:43:46 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -43,7 +43,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 01 Jan 0002 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 01 Jan 0003 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/cisw/introduction/</link>
         <guid isPermaLink="true">http://localhost:4000/cisw/introduction/</guid>
         

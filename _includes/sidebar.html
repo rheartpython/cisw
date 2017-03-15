@@ -9,16 +9,28 @@
             
         
         <div class="mt10 recent">
-            <h2>Recent articles</h2>        
-             <ul>
-                {% for post in site.related_posts limit:3 %}
+            <h2>Material</h2>       
+             <!--<ul>-->
+                <!--{% for post in site.related_posts limit:3 %}-->
+                <!--{% if post.resource %}
+            COMING SOON 
 
                       <li>
-                      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small></small></p>
-                      </li>
+                      
+                      {% else %}
+                      <p><a href="/cisw/resources/{{post.resource}}" download>Download materials</a><small></small></p>
+</li>
+                  {% endif %}-->
+                <!--{% endfor %}-->
+              <!--</ul>-->
 
-                {% endfor %}
-              </ul>
+
+            {% if page.resource %}
+            <a href="/cisw/resources/{{page.resource}}" download>Download materials</a>
+            {% else %}
+            COMING SOON
+            {% endif %}
+
         </div>
         
 
