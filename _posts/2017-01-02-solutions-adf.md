@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Implementing a Solution using Azure Data Factory
-img: workflow.png
+title: Module 2 - Solutions
+img: workflow.jpg
 ---
 
 Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management.

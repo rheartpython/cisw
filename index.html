@@ -13,6 +13,7 @@ layout: default
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <h3 class="panel-title pull-left">{{ post.title }}</h3><span class="post-meta pull-right"><small></small></span>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Go to Module</a>
                   </div>
                   {% if post.img %}
                   <img width="100%" src="{{site.baseurl}}/images/logos/{{post.img}}" alt="{{post.title}}">
@@ -21,7 +22,7 @@ layout: default
                   {% endif %}
                   <div class="panel-body"><small>
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Go to Module</a>
+                    
                   </div>
                 </div>
             </div>

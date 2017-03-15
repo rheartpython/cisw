@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Introduction"
+title:  Module 1 - Introduction
 categories: introduction
-img: hikeclouds.png
+img: hikeclouds.jpg
 categories: [one, two]
 ---
 Introduction to the Cortana Intelligence Platform and the Team Data Science Process.

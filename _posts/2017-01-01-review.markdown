@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Review"
+title:  Module 3 - Review
 categories: review
-img: computertalk.png
+img: computertalk.jpg
 categories: three
 ---
 
 Recap and Final Project for the class.
 
-* [7 - Workshop recap and additional scenarios]({{site.baseurl}}/resources/CISW-FoundationsSection2.pdf)
+* [7 - Workshop recap and additional scenarios]({{site.baseurl}}/resources/CISW-FoundationsSection7.pdf)

@@ -6,17 +6,12 @@
 </description>
     <link>http://localhost:4000/cisw/</link>
     <atom:link href="http://localhost:4000/cisw/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Tue, 14 Mar 2017 15:16:47 -0700</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 15:16:47 -0700</lastBuildDate>
-=======
-    <pubDate>Tue, 14 Mar 2017 15:00:58 -0700</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 15:00:58 -0700</lastBuildDate>
->>>>>>> master
+    <pubDate>Tue, 14 Mar 2017 18:29:40 -0700</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 18:29:40 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
-        <title>Introduction</title>
+        <title>Module 1 - Introduction</title>
         <description>&lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process.&lt;/p&gt;
 
 &lt;p&gt;Here are the resources for this module:&lt;/p&gt;
@@ -38,7 +33,7 @@
       </item>
     
       <item>
-        <title>Implementing a Solution using Azure Data Factory</title>
+        <title>Module 2 - Solutions</title>
         <description>&lt;p&gt;Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -56,11 +51,11 @@
       </item>
     
       <item>
-        <title>Review</title>
+        <title>Module 3 - Review</title>
         <description>&lt;p&gt;Recap and Final Project for the class.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection2.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
