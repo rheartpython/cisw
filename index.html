@@ -7,13 +7,14 @@ layout: default
   
     <div class="row pack">
 
-        {% for post in paginator.posts %}   
+
+        {% for post in paginator.posts %}
             <div class="col-md-4 card">
                  
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <h3 class="panel-title pull-left">{{ post.title }}</h3><span class="post-meta pull-right"><small></small></span>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Go to Module</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Go to {{post.label}}</a>
                   </div>
                   {% if post.img %}
                   <img width="100%" src="{{site.baseurl}}/images/logos/{{post.img}}" alt="{{post.title}}">
@@ -26,7 +27,6 @@ layout: default
                   </div>
                 </div>
             </div>
-        
           {% endfor %}
 
     </div> 

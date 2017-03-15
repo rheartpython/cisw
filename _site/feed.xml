@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cortana Intelligence Suite Education - Foundations</title>
+    <title>Cortana Intelligence Suite Education</title>
     <description>From the Microsoft Machine Learning and Data Science Team
 </description>
     <link>http://localhost:4000/cisw/</link>
     <atom:link href="http://localhost:4000/cisw/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Mar 2017 18:29:40 -0700</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 18:29:40 -0700</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 08:14:07 -0700</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 08:14:07 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
-        <title>Module 1 - Introduction</title>
-        <description>&lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process.&lt;/p&gt;
+        <title>Cortana Intelligence Suite Education - Foundations</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Here are the resources for each of the modules&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Here are the resources for this module:&lt;/p&gt;
+&lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection1.pdf&quot;&gt;1 - Process and Platform, Environment Configuration&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection2.pdf&quot;&gt;2 - Data Discovery and Ingestion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        <pubDate>Tue, 03 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/cisw/introduction/</link>
-        <guid isPermaLink="true">http://localhost:4000/cisw/introduction/</guid>
-        
-        
-        <category>one</category>
-        
-        <category>two</category>
-        
-      </item>
-    
-      <item>
-        <title>Module 2 - Solutions</title>
-        <description>&lt;p&gt;Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management.&lt;/p&gt;
+
+&lt;p&gt;Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection3.pdf&quot;&gt;3 - Data Preparation&lt;/a&gt;&lt;/li&gt;
@@ -42,28 +29,44 @@
   &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection5.pdf&quot;&gt;5 - Business Validation and Model Evaluation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection6.pdf&quot;&gt;6 - Deploying and Accessing the Solution&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Recap and Final Project for the class&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
-        <pubDate>Mon, 02 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/cisw/solutions-adf/</link>
-        <guid isPermaLink="true">http://localhost:4000/cisw/solutions-adf/</guid>
+        <pubDate>Tue, 01 Jan 0002 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/cisw/introduction/</link>
+        <guid isPermaLink="true">http://localhost:4000/cisw/introduction/</guid>
         
         
       </item>
     
       <item>
-        <title>Module 3 - Review</title>
-        <description>&lt;p&gt;Recap and Final Project for the class.&lt;/p&gt;
+        <title>Building Intelligent Chatbots with the Bot Framework</title>
+        <description>&lt;p&gt;Intelligent chatbots with the Bot Framework class material on GitHub:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/michhar/bot-masterclass&quot;&gt;1/2-Day Course - understanding bots from the ground-up with the Bot Framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Azure/bot-education&quot;&gt;2-Day Course - Developing and Deploying Intelligent Chatbots&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Sample bots prevail across GitHub, but here are a few places to start:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder&quot;&gt;Official Bot Framework SDKs and samples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples&quot;&gt;Official Bot Framework extra samples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/cisw/review/</link>
-        <guid isPermaLink="true">http://localhost:4000/cisw/review/</guid>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/cisw/bots/</link>
+        <guid isPermaLink="true">http://localhost:4000/cisw/bots/</guid>
         
         
-        <category>three</category>
+        <category>bots</category>
         
       </item>
     

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Building Intelligent Chatbots with the Bot Framework
+categories: bots
+img: chatbot_w_mountain.jpg
+label: Material
+---
+
+Intelligent chatbots with the Bot Framework class material on GitHub:
+
+* [1/2-Day Course - understanding bots from the ground-up with the Bot Framework](https://github.com/michhar/bot-masterclass)
+* [2-Day Course - Developing and Deploying Intelligent Chatbots](https://github.com/Azure/bot-education)
+
+
+Sample bots prevail across GitHub, but here are a few places to start:
+
+* [Official Bot Framework SDKs and samples](https://github.com/Microsoft/BotBuilder)
+* [Official Bot Framework extra samples](https://github.com/Microsoft/BotBuilder-Samples)
+
