@@ -10,10 +10,10 @@ Foundations Lab Content
 
 **_CISW - Foundations Section 1:  Process and Platform, Environment Configuration_**
 
-### Account Activation Cloud Discussion
+Account Activation Cloud Discussion
 
-1. Activate your Azure Subscription (either existing, trial or if you have an Azure pass - setup [here](#azure-pass))
-  1. Open the Azure Portal at https://portal.azure.com
+1. Activate your Azure Subscription (either existing, trial or if you have an Azure pass - setup [here](#addendum))
+  1. Open the Azure Portal at [https://portal.azure.com](https://portal.azure.com)
   * Create one empty Resource Group
 * Explain a situation where data was used in a new and unexpected way in a business or an organization
 * List three advantages to using a cloud or hybrid architecture
@@ -24,17 +24,17 @@ Set up the Data Science Virtual Machine
 
 1. Log in to the Azure Portal
 * Deploy one Windows Data Science Virtual Machine (DSVM) – note your admin name and password
-  * Need help? Check here – except make sure you pick the Windows Data Science Machine! https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm 
+  * Need help? Check here – except make sure you pick the Windows Data Science Machine! [https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm)
 * Start the DVSM
 * Connect to the DSVM and begin updating the Power BI, Visual Studio, and Windows environments
-  * Need help? Check here: https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/  
+  * Need help? Check here: [https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/)
 
 
 Setting up the Storage Account and additional tools
 
 1. Create a Storage Account in the region closest to the class location – note the name and access keys
 * Connect to the Azure Data Catalog as described in the classroom login information
-* Connect to http://studio.azureml.net  and create a free account for the class
+* Connect to [http://studio.azureml.net](http://studio.azureml.net)  and create a free account for the class
 
 
 **_CISW - Foundations Section 2:  Data Discovery and Ingestion_**
@@ -55,8 +55,8 @@ Copy and view data on your storage account using AZCOPY
 
 1. Open the Azure Portal, locate your Storage Account (or create one if you have not), and a Container (or create one if you have not).   * Note the name of the SA and the Container, and your storage key.
 * From your DVSM, or if you installed the Azure PowerShell tools locally, open a command prompt. 
-  * If you do not have the AZCOPY command, download and install it here: http://aka.ms/downloadazcopy  
-* Navigate to this page: https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/  
+  * If you do not have the AZCOPY command, download and install it here: [http://aka.ms/downloadazcopy](http://aka.ms/downloadazcopy)
+* Navigate to this page: [https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/](https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/)
 * Locate the section marked **“Blob: Upload - Upload single file”** and follow the instructions to load one file to your storage account, using your Storage Account and storage keys. 
 * Next, locate the section on the web page with instructions marked **“Blob: Download - Download single blob”**. Follow the instructions there to copy your file to a new folder on your local computer. 
 
@@ -74,7 +74,7 @@ Create the ADF, Load your Source Data
 1. Open the ADF Student Workbook file from your \Resources folder
 * Follow the steps for Lab 1
 * The follow the steps for Lab 2
-  * Note – There’s a useful JSON prettifier here: http://www.jsoneditoronline.org/
+  * Note – There’s a useful JSON prettifier here: [http://www.jsoneditoronline.org/](http://www.jsoneditoronline.org/)
   
 Create the Linked Services
 
@@ -110,18 +110,18 @@ Create and Run an Experiment in Azure ML
 Connecting to an Azure SQL Database
 
 1. Optional: On your DVSM, you can connect to Azure SQL DB after you open the firewall. 
-  1. Read this for creating a database server and database: https://azure.microsoft.com/en-us/documentation/articles/sql-database-get-started/  
-  * In the portal, find and record your connection strings: http://www.connectionstrings.com/sql-azure/  
-  * Read this to connect and browse to a database: https://msdn.microsoft.com/en-us/l
+  1. Read this for creating a database server and database: [https://azure.microsoft.com/en-us/documentation/articles/sql-database-get-started/](https://azure.microsoft.com/en-us/documentation/articles/sql-database-get-started/)
+  * In the portal, find and record your connection strings: [http://www.connectionstrings.com/sql-azure/](http://www.connectionstrings.com/sql-azure/)
+  * Read this to connect and browse to a database: [https://docs.microsoft.com/en-us/azure/sql-database/sql-database-overview#how-do-i-connect-and-authenticate-to-an-azure-sql-database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-overview#how-do-i-connect-and-authenticate-to-an-azure-sql-database)
 
 **_CISW - Foundations Section 6:  Deployment_**
 
 Analyzing data in Power BI
 
-1. Option 1: First-time, comprehensive example: https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/  
-* Option 2: EMEA soccer data example : http://tinyurl.com/buckwoodypbi1
-* Option 3: US retirement example: http://tinyurl.com/buckwoodypbi2
-* Option 4: Open Power BI or Excel, and use this data source:  http://services.odata.org/V4/Northwind/Northwind.svc/
+1. Option 1: First-time, comprehensive example: [https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
+* Option 2: EMEA soccer data example : [ttp://tinyurl.com/buckwoodypbi1](http://tinyurl.com/buckwoodypbi1)
+* Option 3: US retirement example: [http://tinyurl.com/buckwoodypbi2](http://tinyurl.com/buckwoodypbi2)
+* Option 4: Open Power BI or Excel, and use this data source:  [http://services.odata.org/V4/Northwind/Northwind.svc](http://services.odata.org/V4/Northwind/Northwind.svc/)
   1. Define Relationships
   * Change the data types to be appropriate for location, summation, etc.
   * Create linked graphics based on those relationships and data elements
@@ -130,20 +130,17 @@ Analyzing data in Power BI
 
 Business Case Applications
 
-
-
-
 Select one of the following scenarios. Create a Business Case, a Solution Diagram, and a description of why you chose each technology in your solution and how the data flow path will work. Be as detailed as you can. You can submit three documents or including them all in one – Word, PDF, PowerPoint or Visio are all acceptable tools. 
 
-1. Using the Contoso Medical Scenario, find the Marketing Partners bullet. How could you use the CIS process and platform to assist in determining optimal promotions? https://msdn.microsoft.com/en-us/library/ff650330.aspx  
-* Contoso auto repairs wants to be able to predict the flow of repairs through their shops nation-wide, to properly staff, equip, set pricing and inventory for their operations. Which datasets do you think they need to collect to have this kind of predictive model? How would you go about documenting and ingesting this data? https://msdn.microsoft.com/en-us/library/ee861194.aspx  
+1. Using the Contoso Medical Scenario, find the Marketing Partners bullet. How could you use the CIS process and platform to assist in determining optimal promotions? [https://msdn.microsoft.com/en-us/library/ff650330.aspx](https://msdn.microsoft.com/en-us/library/ff650330.aspx)
+* Contoso auto repairs wants to be able to predict the flow of repairs through their shops nation-wide, to properly staff, equip, set pricing and inventory for their operations. Which datasets do you think they need to collect to have this kind of predictive model? How would you go about documenting and ingesting this data? [https://msdn.microsoft.com/en-us/library/ee861194.aspx](https://msdn.microsoft.com/en-us/library/ee861194.aspx)
 * Contoso University wants to predict which students they should accept from high-schools around the country that will complete their degrees, and offer the best scores to the college. What processes can they use to determine these students, and which CIS platform elements could they use to create a yearly report for the Board of Admissions to give the most numerically accurate number? Describe your solution. 
 
 
 
-**_Addendum_**
+### Addendum
 
-Azure Pass
+**_Azure Pass_**
 
 **Optional.  Setup of the Azure Pass - Redeeming Pass and Activating Subscription**
 
@@ -151,12 +148,12 @@ Please find the details of the Azure Pass codes and instructions on how to acces
 
 1.	Please use the passcode assigned to your name given after registration. Each passcode has a specific value and is valid for a 30 days from the date of redeeming it.
 2.	Each student will need a Microsoft Account to redeem the Azure Pass code.
-4.	Follow the instructions on how to redeem your pass code and how to activate your subscription using the tutorial given under this link https://www.microsoftazurepass.com/howto.  You will check that it worked by visiting the accounts page at  https://account.windowsazure.com/Subscriptions and seeing that "Azure Pass" is a subscription.
-5.	Also, please make sure when using this subscription you are able to login to the Azure Portal at https://portal.azure.com and provision services.
+4.	Follow the instructions on how to redeem your pass code and how to activate your subscription using the tutorial given under this link [https://www.microsoftazurepass.com/howto](https://www.microsoftazurepass.com/howto).  You will check that it worked by visiting the accounts page at  [https://account.windowsazure.com/Subscriptions](https://account.windowsazure.com/Subscriptions) and seeing that "Azure Pass" is a subscription.
+5.	Also, please make sure when using this subscription you are able to login to the Azure Portal at [https://portal.azure.com](https://portal.azure.com) and provision services.
 
 IMPORTANT NOTE: Please **switch off** any Azure services that you used to run the hands-on-labs to make sure you save your remaining credit on the subscription for further use.
 
-If I go to https://account.windowsazure.com and click on ACCOUNT CENTER, I see:
+If I go to [https://account.windowsazure.com](https://account.windowsazure.com) and click on ACCOUNT CENTER, I see:
 
 ![my subscriptions]({{site.baseurl}}/images/azure/azure_pass5.PNG)
 
