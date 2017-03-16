@@ -9,6 +9,7 @@
 **_Setup_:**
 
 1. Fork or clone this repo locally
+2. Modify the `_config.yml` file with your information
 2. Make sure you have `bundle` program for command line
 3. Install all the necessary gems from Gemfile with `bundle install`
 
