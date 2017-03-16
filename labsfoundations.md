@@ -13,28 +13,28 @@ Foundations Lab Content
 Account Activation Cloud Discussion
 
 1. Activate your Azure Subscription (either existing, trial or if you have an Azure pass - setup [here](#addendum))
-  1. Open the Azure Portal at [https://portal.azure.com](https://portal.azure.com)
+  * Open the Azure Portal at [https://portal.azure.com](https://portal.azure.com)
   * Create one empty Resource Group
-* Explain a situation where data was used in a new and unexpected way in a business or an organization
-* List three advantages to using a cloud or hybrid architecture
-* List three objections to hosting an application in the cloud, and three responses to those objections
+2. Explain a situation where data was used in a new and unexpected way in a business or an organization
+3. List three advantages to using a cloud or hybrid architecture
+3. List three objections to hosting an application in the cloud, and three responses to those objections
 
 
 Set up the Data Science Virtual Machine
 
 1. Log in to the Azure Portal
-* Deploy one Windows Data Science Virtual Machine (DSVM) – note your admin name and password
+3. Deploy one Windows Data Science Virtual Machine (DSVM) – note your admin name and password
   * Need help? Check here – except make sure you pick the Windows Data Science Machine! [https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm)
-* Start the DVSM
-* Connect to the DSVM and begin updating the Power BI, Visual Studio, and Windows environments
+4. Start the DVSM
+5. Connect to the DSVM and begin updating the Power BI, Visual Studio, and Windows environments
   * Need help? Check here: [https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/)
 
 
 Setting up the Storage Account and additional tools
 
 1. Create a Storage Account in the region closest to the class location – note the name and access keys
-* Connect to the Azure Data Catalog as described in the classroom login information
-* Connect to [http://studio.azureml.net](http://studio.azureml.net)  and create a free account for the class
+1. Connect to the Azure Data Catalog as described in the classroom login information
+2. Connect to [http://studio.azureml.net](http://studio.azureml.net)  and create a free account for the class
 
 
 **_CISW - Foundations Section 2:  Data Discovery and Ingestion_**
@@ -42,38 +42,42 @@ Setting up the Storage Account and additional tools
 Adding and searching data on the Azure Data Catalog
 
 1. Search for one on-line table involving your business scenario
-* Connect to the Azure Data Catalog
-* Add a Data Source as an HTTP site
-* Add metadata to the information
-* Save and view in Portal
-* Search for your data element based on name or tag you added
-* Add more tags
-* Add yourself as an expert
-* Search for your name as an expert
+2. Connect to the Azure Data Catalog
+3. Add a Data Source as an HTTP site 
+4. Add metadata to the information
+5. Save and View in Portal
+6. Search for your data element based on name or tag you added
+7. Add more tags
+9. Search for your tags
+  * For data ideas check out FiveThirtyEight's github:  https://github.com/fivethirtyeight/data
 
 Copy and view data on your storage account using AZCOPY
 
-1. Open the Azure Portal, locate your Storage Account (or create one if you have not), and a Container (or create one if you have not).   * Note the name of the SA and the Container, and your storage key.
-* From your DVSM, or if you installed the Azure PowerShell tools locally, open a command prompt. 
+1. Open the Azure Portal, locate your Storage Account (or create one if you have not), and a Container (or create one if you have not).   
+  * Note the name of the account name, account key and path to container.
+2. From your DVSM, or if you installed the Azure PowerShell tools locally, open a command prompt. 
   * If you do not have the AZCOPY command, download and install it here: [http://aka.ms/downloadazcopy](http://aka.ms/downloadazcopy)
-* Navigate to this page: [https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/](https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/)
-* Locate the section marked **“Blob: Upload - Upload single file”** and follow the instructions to load one file to your storage account, using your Storage Account and storage keys. 
-* Next, locate the section on the web page with instructions marked **“Blob: Download - Download single blob”**. Follow the instructions there to copy your file to a new folder on your local computer. 
-
+3. Navigate to this page: [https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/](https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/)
+4. Locate the section marked **“Blob: Upload - Upload single file”** and follow the instructions to load a csv file (any csv file you have - like HVAC.csv in \Resources\R\ folder or like [this](https://raw.githubusercontent.com/fivethirtyeight/data/master/san-andreas/earthquake_data.csv) one) to your storage account, using your Storage Account and storage keys. 
+5. Next you have two options (choose one or both):
+  * Simple blob download
+    --> Locate the section on the web page with instructions marked **“Blob: Download - Download single blob”**. Follow the instructions there to copy your file to a new folder on your local computer. 
+  * Azure Machine Learning (AML) option --> 1. Go to your AML account and login  2. Create a new blank experiment  3. Import the the csv file from your blob storage container with the `Import Data` module (fill in details from Storage Account)
 
 Exploring your data
 
 1. Using the building.csv and HVAC.csv files in your \Resources folder, use R, Excel, Azure ML or any other exploration tools you’ve seen in the class to explore the shape, size, layout, distribution and other characteristics you can find in the data. 
-* Document that in any format and be ready to discuss. 
+  * You could explore some of the SDKs at this point as well at [https://azure.github.io/projects/sdks/](https://azure.github.io/projects/sdks/) (for example you could use the python [`azureml`](https://github.com/Azure/Azure-MachineLearning-ClientLibrary-Python#microsoft-azure-machine-learning-python-client-library) with an AML workspace, locally or in jupyter notebooks)
+2. Document that in any format and be ready to discuss. 
 
 
 **_CISW - Foundations Section 3:  Data Preparation_**
 
 Create the ADF, Load your Source Data
 
-1. Open the ADF Student Workbook file from your \Resources folder
-* Follow the steps for Lab 1
-* The follow the steps for Lab 2
+1. Open the ADF Student Workbook file from your \Resources\ADF\ folder
+2. Follow the steps for Lab 1
+3. The follow the steps for Lab 2
   * Note – There’s a useful JSON prettifier here: [http://www.jsoneditoronline.org/](http://www.jsoneditoronline.org/)
   
 Create the Linked Services
@@ -162,4 +166,10 @@ And if I check my "Azure Pass" subscription:
 ![my azure pass credits]({{site.baseurl }}/images/azure/azure_pass6.PNG)
 
 This should match the amount of credit given to me and will be available for 30 days.
+
+**_Additional Tools_**
+
+1.  Git Bash and other Git tools for Windows (a Unix-style environment for cloning github and more unix commands):  https://git-for-windows.github.io/
+
+
 

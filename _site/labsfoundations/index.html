@@ -18,8 +18,8 @@ layout: compress
 <meta property="og:title" content="Labs for Foundations" />
 <meta name="description" content="From the Microsoft Machine Learning and Data Science Team" />
 <meta property="og:description" content="From the Microsoft Machine Learning and Data Science Team" />
-<link rel="canonical" href="http://localhost:4000/cisw/labsfoundations/" />
-<meta property="og:url" content="http://localhost:4000/cisw/labsfoundations/" />
+<link rel="canonical" href="http://localhost:4000/labsfoundations/" />
+<meta property="og:url" content="http://localhost:4000/labsfoundations/" />
 <meta property="og:site_name" content="Cortana Intelligence Suite Education" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
@@ -28,7 +28,7 @@ layout: compress
 "@type": "WebPage",
 "headline": "Labs for Foundations",
 "description": "From the Microsoft Machine Learning and Data Science Team",
-"url": "http://localhost:4000/cisw/labsfoundations/"}</script>
+"url": "http://localhost:4000/labsfoundations/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -38,8 +38,8 @@ layout: compress
 
 </style>  
 
-<link rel="stylesheet" href="/cisw/css/bootstrap.min.css">
-<link rel="alternate" type="application/rss+xml" title="Cortana Intelligence Suite Education" href="http://localhost:4000/cisw/feed.xml">  
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="alternate" type="application/rss+xml" title="Cortana Intelligence Suite Education" href="http://localhost:4000/feed.xml">  
 </head>
 
 
@@ -56,18 +56,18 @@ layout: compress
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/cisw/">Cortana Intelligence Suite Education</a>
+      <a class="navbar-brand" href="/">Cortana Intelligence Suite Education</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-        <li><a href="/cisw/about/">About</a></li>
-        <li><a href="/cisw/contact/">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download Course Materials <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a target="_blank" href="/cisw/resources/Resources.zip">Resource for Foundations Course</a></li>
+            <li><a target="_blank" href="/resources/Resources.zip">Resource for Foundations Course</a></li>
             <li role="separator" class="divider"></li>
           </ul>
         </li>
@@ -96,33 +96,30 @@ layout: compress
 <p>Account Activation Cloud Discussion</p>
 
 <ol>
-  <li>Activate your Azure Subscription (either existing, trial or if you have an Azure pass - setup <a href="#addendum">here</a>)</li>
-  <li>Open the Azure Portal at <a href="https://portal.azure.com">https://portal.azure.com</a>
+  <li>Activate your Azure Subscription (either existing, trial or if you have an Azure pass - setup <a href="#addendum">here</a>)
     <ul>
+      <li>Open the Azure Portal at <a href="https://portal.azure.com">https://portal.azure.com</a></li>
       <li>Create one empty Resource Group</li>
-      <li>Explain a situation where data was used in a new and unexpected way in a business or an organization</li>
-      <li>List three advantages to using a cloud or hybrid architecture</li>
-      <li>List three objections to hosting an application in the cloud, and three responses to those objections</li>
     </ul>
   </li>
+  <li>Explain a situation where data was used in a new and unexpected way in a business or an organization</li>
+  <li>List three advantages to using a cloud or hybrid architecture</li>
+  <li>List three objections to hosting an application in the cloud, and three responses to those objections</li>
 </ol>
 
 <p>Set up the Data Science Virtual Machine</p>
 
 <ol>
-  <li>Log in to the Azure Portal
+  <li>Log in to the Azure Portal</li>
+  <li>Deploy one Windows Data Science Virtual Machine (DSVM) – note your admin name and password
     <ul>
-      <li>Deploy one Windows Data Science Virtual Machine (DSVM) – note your admin name and password
-        <ul>
-          <li>Need help? Check here – except make sure you pick the Windows Data Science Machine! <a href="https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm">https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm</a></li>
-        </ul>
-      </li>
-      <li>Start the DVSM</li>
-      <li>Connect to the DSVM and begin updating the Power BI, Visual Studio, and Windows environments
-        <ul>
-          <li>Need help? Check here: <a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/">https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/</a></li>
-        </ul>
-      </li>
+      <li>Need help? Check here – except make sure you pick the Windows Data Science Machine! <a href="https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm">https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm</a></li>
+    </ul>
+  </li>
+  <li>Start the DVSM</li>
+  <li>Connect to the DSVM and begin updating the Power BI, Visual Studio, and Windows environments
+    <ul>
+      <li>Need help? Check here: <a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/">https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-connect-logon/</a></li>
     </ul>
   </li>
 </ol>
@@ -130,12 +127,9 @@ layout: compress
 <p>Setting up the Storage Account and additional tools</p>
 
 <ol>
-  <li>Create a Storage Account in the region closest to the class location – note the name and access keys
-    <ul>
-      <li>Connect to the Azure Data Catalog as described in the classroom login information</li>
-      <li>Connect to <a href="http://studio.azureml.net">http://studio.azureml.net</a>  and create a free account for the class</li>
-    </ul>
-  </li>
+  <li>Create a Storage Account in the region closest to the class location – note the name and access keys</li>
+  <li>Connect to the Azure Data Catalog as described in the classroom login information</li>
+  <li>Connect to <a href="http://studio.azureml.net">http://studio.azureml.net</a>  and create a free account for the class</li>
 </ol>
 
 <p><strong><em>CISW - Foundations Section 2:  Data Discovery and Ingestion</em></strong></p>
@@ -143,16 +137,16 @@ layout: compress
 <p>Adding and searching data on the Azure Data Catalog</p>
 
 <ol>
-  <li>Search for one on-line table involving your business scenario
+  <li>Search for one on-line table involving your business scenario</li>
+  <li>Connect to the Azure Data Catalog</li>
+  <li>Add a Data Source as an HTTP site</li>
+  <li>Add metadata to the information</li>
+  <li>Save and View in Portal</li>
+  <li>Search for your data element based on name or tag you added</li>
+  <li>Add more tags</li>
+  <li>Search for your tags
     <ul>
-      <li>Connect to the Azure Data Catalog</li>
-      <li>Add a Data Source as an HTTP site</li>
-      <li>Add metadata to the information</li>
-      <li>Save and view in Portal</li>
-      <li>Search for your data element based on name or tag you added</li>
-      <li>Add more tags</li>
-      <li>Add yourself as an expert</li>
-      <li>Search for your name as an expert</li>
+      <li>For data ideas check out FiveThirtyEight’s github:  https://github.com/fivethirtyeight/data</li>
     </ul>
   </li>
 </ol>
@@ -160,16 +154,23 @@ layout: compress
 <p>Copy and view data on your storage account using AZCOPY</p>
 
 <ol>
-  <li>Open the Azure Portal, locate your Storage Account (or create one if you have not), and a Container (or create one if you have not).   * Note the name of the SA and the Container, and your storage key.
+  <li>Open the Azure Portal, locate your Storage Account (or create one if you have not), and a Container (or create one if you have not).
     <ul>
-      <li>From your DVSM, or if you installed the Azure PowerShell tools locally, open a command prompt.
-        <ul>
-          <li>If you do not have the AZCOPY command, download and install it here: <a href="http://aka.ms/downloadazcopy">http://aka.ms/downloadazcopy</a></li>
-        </ul>
-      </li>
-      <li>Navigate to this page: <a href="https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/">https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/</a></li>
-      <li>Locate the section marked <strong>“Blob: Upload - Upload single file”</strong> and follow the instructions to load one file to your storage account, using your Storage Account and storage keys.</li>
-      <li>Next, locate the section on the web page with instructions marked <strong>“Blob: Download - Download single blob”</strong>. Follow the instructions there to copy your file to a new folder on your local computer.</li>
+      <li>Note the name of the account name, account key and path to container.</li>
+    </ul>
+  </li>
+  <li>From your DVSM, or if you installed the Azure PowerShell tools locally, open a command prompt.
+    <ul>
+      <li>If you do not have the AZCOPY command, download and install it here: <a href="http://aka.ms/downloadazcopy">http://aka.ms/downloadazcopy</a></li>
+    </ul>
+  </li>
+  <li>Navigate to this page: <a href="https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/">https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/</a></li>
+  <li>Locate the section marked <strong>“Blob: Upload - Upload single file”</strong> and follow the instructions to load a csv file (any csv file you have - like HVAC.csv in \Resources\R\ folder or like <a href="https://raw.githubusercontent.com/fivethirtyeight/data/master/san-andreas/earthquake_data.csv">this</a> one) to your storage account, using your Storage Account and storage keys.</li>
+  <li>Next you have two options (choose one or both):
+    <ul>
+      <li>Simple blob download
+ –&gt; Locate the section on the web page with instructions marked <strong>“Blob: Download - Download single blob”</strong>. Follow the instructions there to copy your file to a new folder on your local computer.</li>
+      <li>Azure Machine Learning (AML) option –&gt; 1. Go to your AML account and login  2. Create a new blank experiment  3. Import the the csv file from your blob storage container with the <code class="highlighter-rouge">Import Data</code> module (fill in details from Storage Account)</li>
     </ul>
   </li>
 </ol>
@@ -179,9 +180,10 @@ layout: compress
 <ol>
   <li>Using the building.csv and HVAC.csv files in your \Resources folder, use R, Excel, Azure ML or any other exploration tools you’ve seen in the class to explore the shape, size, layout, distribution and other characteristics you can find in the data.
     <ul>
-      <li>Document that in any format and be ready to discuss.</li>
+      <li>You could explore some of the SDKs at this point as well at <a href="https://azure.github.io/projects/sdks/">https://azure.github.io/projects/sdks/</a> (for example you could use the python <a href="https://github.com/Azure/Azure-MachineLearning-ClientLibrary-Python#microsoft-azure-machine-learning-python-client-library"><code class="highlighter-rouge">azureml</code></a> with an AML workspace, locally or in jupyter notebooks)</li>
     </ul>
   </li>
+  <li>Document that in any format and be ready to discuss.</li>
 </ol>
 
 <p><strong><em>CISW - Foundations Section 3:  Data Preparation</em></strong></p>
@@ -189,14 +191,11 @@ layout: compress
 <p>Create the ADF, Load your Source Data</p>
 
 <ol>
-  <li>Open the ADF Student Workbook file from your \Resources folder
+  <li>Open the ADF Student Workbook file from your \Resources\ADF\ folder</li>
+  <li>Follow the steps for Lab 1</li>
+  <li>The follow the steps for Lab 2
     <ul>
-      <li>Follow the steps for Lab 1</li>
-      <li>The follow the steps for Lab 2
-        <ul>
-          <li>Note – There’s a useful JSON prettifier here: <a href="http://www.jsoneditoronline.org/">http://www.jsoneditoronline.org/</a></li>
-        </ul>
-      </li>
+      <li>Note – There’s a useful JSON prettifier here: <a href="http://www.jsoneditoronline.org/">http://www.jsoneditoronline.org/</a></li>
     </ul>
   </li>
 </ol>
@@ -321,13 +320,19 @@ layout: compress
 
 <p>If I go to <a href="https://account.windowsazure.com">https://account.windowsazure.com</a> and click on ACCOUNT CENTER, I see:</p>
 
-<p><img src="/cisw/images/azure/azure_pass5.PNG" alt="my subscriptions" /></p>
+<p><img src="/images/azure/azure_pass5.PNG" alt="my subscriptions" /></p>
 
 <p>And if I check my “Azure Pass” subscription:</p>
 
-<p><img src="/cisw/images/azure/azure_pass6.PNG" alt="my azure pass credits" /></p>
+<p><img src="/images/azure/azure_pass6.PNG" alt="my azure pass credits" /></p>
 
 <p>This should match the amount of credit given to me and will be available for 30 days.</p>
+
+<p><strong><em>Additional Tools</em></strong></p>
+
+<ol>
+  <li>Git Bash and other Git tools for Windows (a Unix-style environment for cloning github and more unix commands):  https://git-for-windows.github.io/</li>
+</ol>
 
 
   </div>
@@ -338,7 +343,7 @@ layout: compress
 <!--<div class="col-md-4 mt20">
         <div class="post-img">
            
-            <img width="600" src="/cisw/images//images/hyd_class.jpg" alt="logo">
+            <img width="600" src="/images//images/hyd_class.jpg" alt="logo">
             
         </div>
             
@@ -376,20 +381,16 @@ layout: compress
   <footer class="container">
 
   <div class="row mt20">
-  <!--
-  <div class="col-md-4 text-center">All rights reserved by <a target="_blank" href="http://micheleenmharris.github.io">M. Harris</a></div>
-    -->
+  <!---->
     
   <div class="col-md-4 text-center" >
   
-  <!--<a target="_blank" href="http://michhar.github.io"><img src="" alt="M. Harris"></a>-->
-  
   </div>
   <div class="col-md-4 text-center">
-     <!--<a target="_blank" href=""><li class="social facebook"><img src="/cisw/images/facebook.svg" alt=""></li></a> 
-      <a target="_blank" href=""><li class="social quora"><img src="/cisw/images/quora.svg" alt=""></li></a>      -->
-      <a target="_blank" href="http://twitter.com/@rheartpython"><li class="social twitter"><img src="/cisw/images/twitter.svg" alt="http://twitter.com/@rheartpython"></li></a>      
-      <a target="_blank" href="http://github.com/micheleenmharris"><li class="social github"><img src="/cisw/images/github.svg" alt="http://github.com/micheleenmharris"></li></a>
+     <!--<a target="_blank" href=""><li class="social facebook"><img src="/images/facebook.svg" alt=""></li></a> 
+      <a target="_blank" href=""><li class="social quora"><img src="/images/quora.svg" alt=""></li></a>      -->
+      <a target="_blank" href="http://twitter.com/@rheartpython"><li class="social twitter"><img src="/images/twitter.svg" alt="http://twitter.com/@rheartpython"></li></a>      
+      <a target="_blank" href="http://github.com/rheartpython"><li class="social github"><img src="/images/github.svg" alt="http://github.com/rheartpython"></li></a>
   </div>
   
   </div> 
@@ -409,7 +410,7 @@ layout: compress
 </script>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="/cisw/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
  
   </body>
 

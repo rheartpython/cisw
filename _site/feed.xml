@@ -4,10 +4,10 @@
     <title>Cortana Intelligence Suite Education</title>
     <description>From the Microsoft Machine Learning and Data Science Team
 </description>
-    <link>http://localhost:4000/cisw/</link>
-    <atom:link href="http://localhost:4000/cisw/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Mar 2017 11:43:46 -0700</pubDate>
-    <lastBuildDate>Wed, 15 Mar 2017 11:43:46 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Mar 2017 08:52:26 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2017 08:52:26 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -17,35 +17,35 @@
 &lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection1.pdf&quot;&gt;1 - Process and Platform, Environment Configuration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection2.pdf&quot;&gt;2 - Data Discovery and Ingestion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection1.pdf&quot;&gt;1 - Process and Platform, Environment Configuration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection2.pdf&quot;&gt;2 - Data Discovery and Ingestion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection3.pdf&quot;&gt;3 - Data Preparation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection4.pdf&quot;&gt;4 - Modeling for Machine Learning and Data Mining&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection5.pdf&quot;&gt;5 - Business Validation and Model Evaluation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection6.pdf&quot;&gt;6 - Deploying and Accessing the Solution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection3.pdf&quot;&gt;3 - Data Preparation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection4.pdf&quot;&gt;4 - Modeling for Machine Learning and Data Mining&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection5.pdf&quot;&gt;5 - Business Validation and Model Evaluation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection6.pdf&quot;&gt;6 - Deploying and Accessing the Solution&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Recap and Final Project for the class&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Lab Link&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cisw/labsfoundations/&quot;&gt;All labs for Foundations found here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labsfoundations/&quot;&gt;All labs for Foundations found here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         <pubDate>Wed, 01 Jan 0003 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/cisw/introduction/</link>
-        <guid isPermaLink="true">http://localhost:4000/cisw/introduction/</guid>
+        <link>http://localhost:4000/introduction/</link>
+        <guid isPermaLink="true">http://localhost:4000/introduction/</guid>
         
         
       </item>
@@ -68,8 +68,8 @@
 
 </description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/cisw/bots/</link>
-        <guid isPermaLink="true">http://localhost:4000/cisw/bots/</guid>
+        <link>http://localhost:4000/bots/</link>
+        <guid isPermaLink="true">http://localhost:4000/bots/</guid>
         
         
         <category>bots</category>
