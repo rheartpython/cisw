@@ -18,7 +18,7 @@
 2. You'll build the site with bundle and jekyll as well as probably testing it out (`bundle exec jekyll serve` will both build and host on localhost for testing; if you just want to build type `bundle exec jekyll build`)
 3. Push changes from `master` up to github (the backing up process - you'll likely type `git push origin master`)
 4. Switch to the `gh-pages` branch (`git checkout gh-pages`)
-5. Merge with `master` (`git merge gh-pages`) - should go smoothly, but if not look into `git mergetool`
+5. Merge with `master` (`git merge master`) - should go smoothly, but if not look into `git mergetool`
 6. Push changes from `gh-pages` up to github (you'll likely type `git push origin gh-pages`)
 7. Iterate...
 
