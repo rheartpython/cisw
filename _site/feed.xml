@@ -6,73 +6,73 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Mar 2017 08:52:26 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2017 08:52:26 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 15:28:48 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 15:28:48 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
-        <title>Cortana Intelligence Suite Education - Foundations</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Here are the resources for each of the modules for the Foundations course&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <title>Azure Machine Learning - Guided Experiments</title>
+        <description>&lt;p&gt;Work with pre-made Azure Machine Learning experiments to better understand the data, modify and manage.&lt;/p&gt;
 
-&lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection1.pdf&quot;&gt;1 - Process and Platform, Environment Configuration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection2.pdf&quot;&gt;2 - Data Discovery and Ingestion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ingesting, processing, and consuming data using Azure Data Factory for Orchestration and Management&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 1 - Online Fraud Detection Guided AML Experiments&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection3.pdf&quot;&gt;3 - Data Preparation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection4.pdf&quot;&gt;4 - Modeling for Machine Learning and Data Mining&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection5.pdf&quot;&gt;5 - Business Validation and Model Evaluation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection6.pdf&quot;&gt;6 - Deploying and Accessing the Solution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gallery.cortanaintelligence.com/Experiment/Online-Fraud-Detection-Step-1-of-5-Generate-tagged-data-2&quot;&gt;Online fraud detection Azure Machine Learning Experiments - 5 Modules (START HERE)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Recap and Final Project for the class&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 2 - Choose your own adventure&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose an experiment that interets you and explore the modules, trying your own data in the process.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsSection7.pdf&quot;&gt;7 - Workshop recap and additional scenarios&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gallery.cortanaintelligence.com/browse?categories=[%221%22]&quot;&gt;Choose from the Cortana Intelligence Gallery experiments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Lab Link&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 3 - Operationalize the AML experiment as a web service&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/labsfoundations/&quot;&gt;All labs for Foundations found here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;a href=&quot;https://michhar.github.io/posts/a-python-flask-webapp-gets-smart&quot;&gt;this&lt;/a&gt; blog post as a guide to working with an n-gram featurizer and Kmeans clustering experiment, operationalizing it as a Python web service.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final steps&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For each of these open an intermediate dataset in a Jupyter notebook by adding an &lt;code class=&quot;highlighter-rouge&quot;&gt;Convert to CSV&lt;/code&gt; module and right clicking the output node –&amp;gt; &lt;strong&gt;Open in a new Notebook&lt;/strong&gt; and choose R or Python.  Then, perform some exploratory data analysis - summarize the data, plot to understand the spread (IQRs etc.), check the variables for appropriate types (categorical vs. continous), as examples.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 01 Jan 0003 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/introduction/</link>
-        <guid isPermaLink="true">http://localhost:4000/introduction/</guid>
+        <pubDate>Sat, 01 Jan 0005 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/aml-extension/</link>
+        <guid isPermaLink="true">http://localhost:4000/aml-extension/</guid>
         
+        
+        <category>aml</category>
         
       </item>
     
       <item>
-        <title>Building Intelligent Chatbots with the Bot Framework</title>
-        <description>&lt;p&gt;Intelligent chatbots with the Bot Framework class material on GitHub:&lt;/p&gt;
+        <title>Azure Data Factory ARM Template Tutorials</title>
+        <description>&lt;h4 id=&quot;these-tutorials-serve-as-guides-on-using-arm-templates-to-work-with-adf&quot;&gt;These tutorials serve as guides on using ARM templates to work with ADF&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 1 - Tutorial: Build your first Azure data factory using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/michhar/bot-masterclass&quot;&gt;1/2-Day Course - understanding bots from the ground-up with the Bot Framework&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Azure/bot-education&quot;&gt;2-Day Course - Developing and Deploying Intelligent Chatbots&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-build-your-first-pipeline-using-arm&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Sample bots prevail across GitHub, but here are a few places to start:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 2- Tutorial: Create a pipeline with Copy Activity using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder&quot;&gt;Official Bot Framework SDKs and samples&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples&quot;&gt;Official Bot Framework extra samples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-copy-activity-tutorial-using-azure-resource-manager-template&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;With each of these OPTIONS there are also Visual Studio, REST API, etc. ways of going about the same thing.  On each page just use the drop-down menu to select the flavor of the tutorial you wish to use.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/bots/</link>
-        <guid isPermaLink="true">http://localhost:4000/bots/</guid>
+        <pubDate>Thu, 01 Jan 0004 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/adf-extension/</link>
+        <guid isPermaLink="true">http://localhost:4000/adf-extension/</guid>
         
         
-        <category>bots</category>
+        <category>adf</category>
         
       </item>
     
