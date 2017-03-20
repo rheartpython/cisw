@@ -6,13 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 15:28:48 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 15:28:48 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 20:34:01 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 20:34:01 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
+        <title>Azure Data Factory ARM Template Tutorials</title>
+        <description>&lt;p&gt;These tutorials serve as guides on using ARM templates to work with ADF.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 1 - Tutorial: Build your first Azure data factory using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-build-your-first-pipeline-using-arm&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 2- Tutorial: Create a pipeline with Copy Activity using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-copy-activity-tutorial-using-azure-resource-manager-template&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With each of these OPTIONS there are also Visual Studio, REST API, etc. ways of going about the same thing.  On each page just use the drop-down menu to select the flavor of the tutorial you wish to use.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 01 Jan 0005 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/adf-extension/</link>
+        <guid isPermaLink="true">http://localhost:4000/adf-extension/</guid>
+        
+        
+        <category>adf</category>
+        
+      </item>
+    
+      <item>
         <title>Azure Machine Learning - Guided Experiments</title>
-        <description>&lt;p&gt;Work with pre-made Azure Machine Learning experiments to better understand the data, modify and manage.&lt;/p&gt;
+        <description>&lt;p&gt;Work with pre-made Azure Machine Learning experiments to better understand the data and create predictive models.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 1 - Online Fraud Detection Guided AML Experiments&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -38,8 +66,10 @@
 
 &lt;p&gt;For each of these open an intermediate dataset in a Jupyter notebook by adding an &lt;code class=&quot;highlighter-rouge&quot;&gt;Convert to CSV&lt;/code&gt; module and right clicking the output node –&amp;gt; &lt;strong&gt;Open in a new Notebook&lt;/strong&gt; and choose R or Python.  Then, perform some exploratory data analysis - summarize the data, plot to understand the spread (IQRs etc.), check the variables for appropriate types (categorical vs. continous), as examples.&lt;/p&gt;
 
+&lt;p&gt;If you wish to &lt;strong&gt;Deploy as a web service&lt;/strong&gt; follow the instructions &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-walkthrough-5-publish-web-service&quot;&gt;here&lt;/a&gt; for an example walkthrough.&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 01 Jan 0005 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 01 Jan 0004 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/aml-extension/</link>
         <guid isPermaLink="true">http://localhost:4000/aml-extension/</guid>
         
@@ -49,30 +79,17 @@
       </item>
     
       <item>
-        <title>Azure Data Factory ARM Template Tutorials</title>
-        <description>&lt;h4 id=&quot;these-tutorials-serve-as-guides-on-using-arm-templates-to-work-with-adf&quot;&gt;These tutorials serve as guides on using ARM templates to work with ADF&lt;/h4&gt;
+        <title>Additional Instructor-Led Class Resources</title>
+        <description>&lt;p&gt;This list is continously updated based on interest and feedback.  It is meant to help those taking this course in an instructor-led format.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 1 - Tutorial: Build your first Azure data factory using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-build-your-first-pipeline-using-arm&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;OPTION 2- Tutorial: Create a pipeline with Copy Activity using Azure Resource Manager template&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/data-factory-copy-activity-tutorial-using-azure-resource-manager-template&quot;&gt;Tutorial Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With each of these OPTIONS there are also Visual Studio, REST API, etc. ways of going about the same thing.  On each page just use the drop-down menu to select the flavor of the tutorial you wish to use.&lt;/p&gt;
-
+&lt;p&gt;And don’t forget to have a cup of tea and enjoy learning analytics.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 01 Jan 0004 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/adf-extension/</link>
-        <guid isPermaLink="true">http://localhost:4000/adf-extension/</guid>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/more-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/more-resources/</guid>
         
         
-        <category>adf</category>
+        <category>extra</category>
         
       </item>
     

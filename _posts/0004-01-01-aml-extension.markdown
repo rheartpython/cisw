@@ -3,12 +3,12 @@ layout: post
 title:  Azure Machine Learning - Guided Experiments
 categories: aml
 img: STML_Illus_48.jpg
-label: Course
+label: Labs
 resource:
 ---
 
 
-Work with pre-made Azure Machine Learning experiments to better understand the data, modify and manage.
+Work with pre-made Azure Machine Learning experiments to better understand the data and create predictive models.
 
 **_OPTION 1 - Online Fraud Detection Guided AML Experiments_**
 
@@ -28,4 +28,6 @@ Choose an experiment that interets you and explore the modules, trying your own 
 **_Final steps_**
 
 For each of these open an intermediate dataset in a Jupyter notebook by adding an `Convert to CSV` module and right clicking the output node --> **Open in a new Notebook** and choose R or Python.  Then, perform some exploratory data analysis - summarize the data, plot to understand the spread (IQRs etc.), check the variables for appropriate types (categorical vs. continous), as examples.
+
+If you wish to **Deploy as a web service** follow the instructions [here](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-walkthrough-5-publish-web-service) for an example walkthrough.
 

@@ -3,11 +3,11 @@ layout: post
 title:  Azure Data Factory ARM Template Tutorials
 categories: adf
 img: workflow.jpg
-label: Course
+label: Labs
 resource:
 ---
 
-#### These tutorials serve as guides on using ARM templates to work with ADF
+These tutorials serve as guides on using ARM templates to work with ADF.
 
 **_OPTION 1 - Tutorial: Build your first Azure data factory using Azure Resource Manager template_**
 
