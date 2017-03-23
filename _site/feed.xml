@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Mar 2017 01:52:22 -0400</pubDate>
-    <lastBuildDate>Thu, 23 Mar 2017 01:52:22 -0400</lastBuildDate>
+    <pubDate>Thu, 23 Mar 2017 08:04:22 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Mar 2017 08:04:22 -0400</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -15,6 +15,8 @@
         <description>&lt;p&gt;For these we will use the Data Science Virtual Machine (DSVM).&lt;/p&gt;
 
 &lt;p&gt;Provision a medium size VM (e.g. DS4 v2) for these exercises.&lt;/p&gt;
+
+&lt;p&gt;The handouts can be found at: &lt;a href=&quot;/resources/CISW_Focus_Microsoft_R_for_Arcitects.pdf&quot;&gt;SQL Server R Services Handouts coorresponding to these labs&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Analyzing Big Data with MRS Labs - Scenario around NYC Taxi data&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 

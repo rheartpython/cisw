@@ -11,6 +11,8 @@ For these we will use the Data Science Virtual Machine (DSVM).
 
 Provision a medium size VM (e.g. DS4 v2) for these exercises.
 
+The handouts can be found at: [SQL Server R Services Handouts coorresponding to these labs]({{site.baseurl}}/resources/CISW_Focus_Microsoft_R_for_Arcitects.pdf)
+
 **_Analyzing Big Data with MRS Labs - Scenario around NYC Taxi data_**
 
 For this part we will use some guides with a lot of excellent information found on one of Azure's public GitHub repositories.  Clone the repository when you need the data for portions of these labs.  It is recommended to work through on the DSVM, but it is also valid to work on a local installation of Microsoft R.
