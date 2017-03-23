@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cortana Intelligence Suite Education</title>
+    <title>Cortana Intelligence Suite Education Extras</title>
     <description>From the Microsoft Machine Learning and Data Science Team
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 20:34:01 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 20:34:01 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Mar 2017 01:52:22 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Mar 2017 01:52:22 -0400</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
+    
+      <item>
+        <title>Microsoft R Server and SQL Server R Services Labs</title>
+        <description>&lt;p&gt;For these we will use the Data Science Virtual Machine (DSVM).&lt;/p&gt;
+
+&lt;p&gt;Provision a medium size VM (e.g. DS4 v2) for these exercises.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Analyzing Big Data with MRS Labs - Scenario around NYC Taxi data&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For this part we will use some guides with a lot of excellent information found on one of Azure’s public GitHub repositories.  Clone the repository when you need the data for portions of these labs.  It is recommended to work through on the DSVM, but it is also valid to work on a local installation of Microsoft R.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/01-Getting-started.md&quot;&gt;Step 1:  Getting Started&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/02-Reading-data.md&quot;&gt;Step 2: Reading the data&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/03-Preparing-data.md&quot;&gt;Step 3:  Preparing the data&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keep going with the rest of the sections at &lt;a href=&quot;https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS&quot;&gt;https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS&lt;/a&gt; to learn more Microsoft R Server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;SQL Server R Services - Scenario around Hospital Length of Stay&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate to &lt;a href=&quot;https://microsoft.github.io/r-server-hospital-length-of-stay/index.html&quot;&gt;this&lt;/a&gt; site and follow the steps in the &lt;strong&gt;Typical Workflow&lt;/strong&gt; in this solution to simulate an on-premises solution using your DSVM which has all of the necessary tools.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 0006 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/intro-mrs-labs/</link>
+        <guid isPermaLink="true">http://localhost:4000/intro-mrs-labs/</guid>
+        
+        
+        <category>mrs</category>
+        
+      </item>
     
       <item>
         <title>Azure Data Factory ARM Template Tutorials</title>
@@ -29,7 +66,7 @@
 &lt;p&gt;With each of these OPTIONS there are also Visual Studio, REST API, etc. ways of going about the same thing.  On each page just use the drop-down menu to select the flavor of the tutorial you wish to use.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 01 Jan 0005 00:00:00 -0800</pubDate>
+        <pubDate>Sat, 01 Jan 0005 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/adf-extension/</link>
         <guid isPermaLink="true">http://localhost:4000/adf-extension/</guid>
         
@@ -69,7 +106,7 @@
 &lt;p&gt;If you wish to &lt;strong&gt;Deploy as a web service&lt;/strong&gt; follow the instructions &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-walkthrough-5-publish-web-service&quot;&gt;here&lt;/a&gt; for an example walkthrough.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 01 Jan 0004 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 01 Jan 0004 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/aml-extension/</link>
         <guid isPermaLink="true">http://localhost:4000/aml-extension/</guid>
         
@@ -84,7 +121,7 @@
 
 &lt;p&gt;And don’t forget to have a cup of tea and enjoy learning analytics.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/more-resources/</link>
         <guid isPermaLink="true">http://localhost:4000/more-resources/</guid>
         

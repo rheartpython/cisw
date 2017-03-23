@@ -14,21 +14,24 @@ layout: compress
 <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>Contact - Cortana Intelligence Suite Education Extras</title>
-<meta property="og:title" content="Contact" />
-<meta name="description" content="From the Microsoft Machine Learning and Data Science Team" />
-<meta property="og:description" content="From the Microsoft Machine Learning and Data Science Team" />
-<link rel="canonical" href="http://localhost:4000/contact/" />
-<meta property="og:url" content="http://localhost:4000/contact/" />
+<title>Microsoft R Server and SQL Server R Services Labs - Cortana Intelligence Suite Education Extras</title>
+<meta property="og:title" content="Microsoft R Server and SQL Server R Services Labs" />
+<meta name="description" content="For these we will use the Data Science Virtual Machine (DSVM)." />
+<meta property="og:description" content="For these we will use the Data Science Virtual Machine (DSVM)." />
+<link rel="canonical" href="http://localhost:4000/intro-mrs-labs/" />
+<meta property="og:url" content="http://localhost:4000/intro-mrs-labs/" />
 <meta property="og:site_name" content="Cortana Intelligence Suite Education Extras" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="0006-01-01T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
 {"@context": "http://schema.org",
-"@type": "WebPage",
-"headline": "Contact",
-"description": "From the Microsoft Machine Learning and Data Science Team",
-"url": "http://localhost:4000/contact/"}</script>
+"@type": "BlogPosting",
+"headline": "Microsoft R Server and SQL Server R Services Labs",
+"datePublished": "0006-01-01T00:00:00-05:00",
+"description": "For these we will use the Data Science Virtual Machine (DSVM).",
+"url": "http://localhost:4000/intro-mrs-labs/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -82,59 +85,63 @@ layout: compress
       <div class="wrapper">
         <div class="row">
 <div class="col-md-8">
-<article class="post">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title">Contact</h1>
-  </header>
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">Microsoft R Server and SQL Server R Services Labs</h1>
+                 
+          </header>
 
-  <div class="post-content">
-    <p>I would love to hear from you. Any query, any suggestion or feedback would be great!  On the site, the courses or anything you wish to share regarding learning analytics.</p>
+          <div class="post-content" itemprop="articleBody">
+            <p>For these we will use the Data Science Virtual Machine (DSVM).</p>
 
-<p>[Coming Soon!]</p>
+<p>Provision a medium size VM (e.g. DS4 v2) for these exercises.</p>
 
-<!--<form id="contact-form" class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
-       <fieldset>
-       
-            <div class="form-group">
-                <label class="col-lg-2 control-label" for="name">Name:</label>
-                <div class="col-lg-10">
-                <input type="text" placeholder="Your name" id="name" class="form-control" name="name" tabindex="1"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-lg-2 control-label" for="email">Email:</label>
-                <div class="col-lg-10">
-                <input type="email" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-lg-2 control-label" for="message">Message:</label>
-                <div class="col-lg-10">
-                <textarea class="contact-textarea" placeholder="Your message" class="form-control" rows="4" id="message" name="message" tabindex="3"></textarea>
-                </div>
-            </div>
-            
-           <div class="form-group"> 
-           <div class="col-lg-10 col-lg-offset-2">  
-         <input type="submit" class="btn btn-primary" value="Send" id="submit"/>
-         </div>
-         </div>
-        <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
-    </fieldset>  
-</form>-->
+<p><strong><em>Analyzing Big Data with MRS Labs - Scenario around NYC Taxi data</em></strong></p>
 
-<p>This form is made functional by <a href="https://getsimpleform.com" target="_blank">SimpleForm</a>. Read <a href="http://blog.webjeda.com/jekyll-contact-form/" target="_blank">How to create a form in Jekyll site</a> to implement using formspree.</p>
+<p>For this part we will use some guides with a lot of excellent information found on one of Azure’s public GitHub repositories.  Clone the repository when you need the data for portions of these labs.  It is recommended to work through on the DSVM, but it is also valid to work on a local installation of Microsoft R.</p>
 
-  </div>
+<ul>
+  <li>
+    <p><a href="https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/01-Getting-started.md">Step 1:  Getting Started</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/02-Reading-data.md">Step 2: Reading the data</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS/blob/master/student_resources/03-Preparing-data.md">Step 3:  Preparing the data</a></p>
+  </li>
+</ul>
 
-</article>
+<p>Keep going with the rest of the sections at <a href="https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS">https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS</a> to learn more Microsoft R Server.</p>
 
+<p><strong><em>SQL Server R Services - Scenario around Hospital Length of Stay</em></strong></p>
+
+<p>Navigate to <a href="https://microsoft.github.io/r-server-hospital-length-of-stay/index.html">this</a> site and follow the steps in the <strong>Typical Workflow</strong> in this solution to simulate an on-premises solution using your DSVM which has all of the necessary tools.</p>
+
+          </div>
+
+    </article>
+  <!--<div class="row">
+        
+    </div> -->
+    
+    
+    <div class="row">
+            <ul class="pager">
+             
+              
+                <li><a class="previous" href="/adf-extension/">Azure Data Factory ARM Template Tutorials &raquo;</a></li>
+              
+            </ul>
+    </div>
 </div>
-<!--<div class="col-md-4 mt20">
+
+
+<div class="col-md-4 mt20">
         <div class="post-img">
            
-            <img width="600" src="/images//images/hyd_class.jpg" alt="logo">
+            <img width="600" src="/images/logos/hikeclouds.jpg" alt="Microsoft R Server and SQL Server R Services Labs">
             
         </div>
             
@@ -142,6 +149,21 @@ layout: compress
         <div class="mt10 recent">
             <h2>Material</h2>       
              <!--<ul>-->
+                <!---->
+                <!--
+                      <p><a href="/cisw/resources/" download>Download materials</a><small></small></p>
+</li>
+                  -->
+                <!---->
+                <!--
+                      <p><a href="/cisw/resources/" download>Download materials</a><small></small></p>
+</li>
+                  -->
+                <!---->
+                <!--
+                      <p><a href="/cisw/resources/" download>Download materials</a><small></small></p>
+</li>
+                  -->
                 <!---->
               <!--</ul>-->
 
@@ -154,17 +176,22 @@ layout: compress
         
 
 </div>
--->
+
+
 </div>
 
-<!--<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>-->
+    <script>
+    (function() {
+        var font3 = document.createElement('link'); 
+        font3.type = 'text/css'; 
+        font3.rel = 'stylesheet';
+        font3.href = '/css/syntax-highlighting.css';
+        var q = document.getElementsByTagName('link')[0]; 
+        q.parentNode.insertBefore(font3, q);
+      })();
+</script>
+
+
       </div>
     </div>
 
