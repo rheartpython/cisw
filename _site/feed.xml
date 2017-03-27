@@ -6,13 +6,19 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Mar 2017 01:21:02 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Mar 2017 01:21:02 -0400</lastBuildDate>
+    <pubDate>Mon, 27 Mar 2017 01:25:31 -0400</pubDate>
+    <lastBuildDate>Mon, 27 Mar 2017 01:25:31 -0400</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Cortana Intelligence Suite Education - Foundations</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Here are the resources for each of the modules for the Foundations course&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome to Cortana Intelligence Suite Foundations Course!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/resources/CISW-FoundationsAttendeeWelcomeLetter.pdf&quot;&gt;Welcome Letter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Here are the resources for each of the modules for the Foundations course&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Introduction to the Cortana Intelligence Platform and the Team Data Science Process&lt;/p&gt;
 

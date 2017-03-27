@@ -7,6 +7,11 @@ resource: Resources.zip
 ---
 
 
+**_Welcome to Cortana Intelligence Suite Foundations Course!_**
+
+* [Welcome Letter]({{site.baseurl}}/resources/CISW-FoundationsAttendeeWelcomeLetter.pdf)
+
+
 **_Here are the resources for each of the modules for the Foundations course_**
 
 Introduction to the Cortana Intelligence Platform and the Team Data Science Process
