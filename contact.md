@@ -5,7 +5,9 @@ permalink: /contact/
 ---
 
 
-I would love to hear from you. Any query, any suggestion or feedback would be great!  On the site, the courses or anything you wish to share regarding learning analytics.
+We would love to hear from you. Any query, any suggestion or feedback would be great!
+
+For an course related queries check out https://learnanalytics.microsoft.com or email us at learnanalytics@microsoft.com.
 
 [Coming Soon!]
 
