@@ -23,3 +23,6 @@ resource: Resources.zip
 * [6 - Deployment]({{site.baseurl}}/resources/CISW-FoundationsSection6.pdf)
 * [7 - Workshop Recap]({{site.baseurl}}/resources/CISW-FoundationsSection7.pdf)
 
+
+Click [here]({{site.baseurl}}/resources/Decks-CIS-Foundations-michhar.zip) to download the zip archive of the slide decks.
+
