@@ -11,7 +11,7 @@ For these we will use the Data Science Virtual Machine (DSVM).
 
 Provision a medium size VM (e.g. DS4 v2) for these exercises.
 
-The handouts can be found at: [SQL Server R Services Handouts coorresponding to these labs]({{site.baseurl}}/resources/CISW_Focus_Microsoft_R_for_Arcitects.pdf)
+The handouts can be found at: [SQL Server R Services Handouts coorresponding to these labs]({{site.baseurl}}/resources/CISW_Focus_Microsoft_R_for_Architects.pdf)
 
 **_Analyzing Big Data with MRS Labs - Scenario around NYC Taxi data_**
 
